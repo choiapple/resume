@@ -1,0 +1,36 @@
+.homeWrap{
+   
+}
+.homeBox{
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.homeContent{
+    border-bottom: 1px solid var(--color-3nd);
+}
+.homeDescriptTitle{
+    color:orange;
+    font-size: 1.2rem;
+    margin: 3% auto;
+}
+.homeDescriptElement{
+    margin: 2% auto;
+}
+.homePhoto{
+    width: 15%;
+}
+.homePhoto img{
+    width: 100%;
+    height: 100%;
+}
+.homeLargeTitle{
+    margin: 2% auto;
+    color: orange;
+    font-size: 1.5rem;
+}
+.homeInroduce{
+    line-height: 1.3rem;
+}

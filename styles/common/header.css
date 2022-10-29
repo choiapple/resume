@@ -1,0 +1,22 @@
+.headerWrap{
+    margin: 3% auto;
+}
+.headerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.headerName{
+    font-size: var(--font-medium);
+}
+.headerDescript{
+    font-size: var(--font-small);
+}
+.headerFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-bottom: 1px solid var(--color-3nd);
+}

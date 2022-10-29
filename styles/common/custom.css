@@ -1,0 +1,11 @@
+body{
+    background: var(--color-primary);
+}
+.wrap{
+    width: 70%;
+    margin:5% auto;
+    background: #fff;
+    border:1px solid var(--color-3nd);
+    box-sizing: border-box;
+    padding:6% 7%;
+}
