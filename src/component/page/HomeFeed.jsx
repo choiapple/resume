@@ -1,5 +1,4 @@
 import Image from "next/image";
-import idPhoto from "../../../public/image/idphoto.jpg";
 import Link from "next/link";
 
 function HomeFeed() {
@@ -8,7 +7,7 @@ function HomeFeed() {
       <div className="homeContent">
         <div className="homeBox">
           <div className="homePhoto">
-            <Image src={idPhoto} />
+            <Image src={"/idphoto.jpg"} alt="증명사진" width={354} height={472}/>
           </div>
           <div className="homeDescript">
             <div className="homeDescriptTitle">contact.</div>
